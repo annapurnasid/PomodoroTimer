@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 const kMainFont = 'Montserrat';
 const kDisplayFont = 'SquadaOne';
 
-const kColorGreen = Color(0xFF145259);
-const kColorLightGreen = Color.fromRGBO(155, 188, 191, 100);
-const kColorRed = Color(0xFFD96666);
-const kColorLightRed = Color(0xFFF2CECE);
+const kColorBlue = Color(0xFF013459);
+const kColorLightBlue = Color(0xFF8399AB);
+const kColorYellow = Color(0xFFD2A44A);
+const kColorLightYellow = Color(0xFFE8CC9D);
 const kColorLightGray = Color(0xFFDDDDDD);
 
 const kTimerTextStyle = TextStyle(

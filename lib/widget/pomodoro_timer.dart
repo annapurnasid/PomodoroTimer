@@ -48,8 +48,8 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
   PomodoroState _state = PomodoroState.none;
   int remainTime = 0; // Second
   int pomodoroCount = 0;
-  Color timerBgColor = kColorLightRed;
-  Color mainColor = kColorRed;
+  Color timerBgColor = kColorLightYellow;
+  Color mainColor = kColorYellow;
 
   String subTitle = '';
   String buttonCaption = 'buttonCaption';
@@ -142,8 +142,8 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
     _state = PomodoroState.beingWork;
     setState(() {
       remainTime = kWorkDuration;
-      timerBgColor = kColorLightRed;
-      mainColor = kColorRed;
+      timerBgColor = kColorLightYellow;
+      mainColor = kColorYellow;
       subTitle = 'Start to work';
       buttonCaption = 'START WORK';
     });
@@ -154,8 +154,8 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
     final longBreak = shouldHaveLongBreak();
     setState(() {
       remainTime = longBreak ? kLongRestDuration : kRestDuration;
-      timerBgColor = kColorLightGreen;
-      mainColor = kColorGreen;
+      timerBgColor = kColorLightBlue;
+      mainColor = kColorBlue;
       subTitle = longBreak ? 'Let\'s take a long break' : 'Let\'s take a break';
       buttonCaption = 'START REST';
     });
@@ -165,8 +165,8 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
     _state = PomodoroState.atWork;
     setState(() {
       remainTime = kWorkDuration;
-      timerBgColor = kColorLightRed;
-      mainColor = kColorRed;
+      timerBgColor = kColorLightYellow;
+      mainColor = kColorYellow;
       subTitle = 'Work in progress';
       buttonCaption = 'DISCARD';
     });
@@ -190,8 +190,8 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
     final longBreak = shouldHaveLongBreak();
     setState(() {
       remainTime = longBreak ? kLongRestDuration : kRestDuration;
-      timerBgColor = kColorLightGreen;
-      mainColor = kColorGreen;
+      timerBgColor = kColorLightBlue;
+      mainColor = kColorBlue;
       subTitle = 'Taking break';
       buttonCaption = 'DISCARD';
     });

@@ -8,7 +8,7 @@ class TimerPanel extends StatelessWidget {
   const TimerPanel({
     Key? key,
     this.remainTime: 0,
-    this.bgColor = kColorLightRed,
+    this.bgColor = kColorLightYellow,
   }) : super(key: key);
 
   String formatText(int timeValue) {
