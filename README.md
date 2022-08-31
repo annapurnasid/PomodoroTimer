@@ -1,4 +1,4 @@
-# pomo_timer
+# Pomodoro Timer
 
 This Flutter app is based on Pomodoro Technique.
 
@@ -23,10 +23,10 @@ and this continues.
 ## Few changes in app for development:
 change the timings for work and rest, in pomodoro_timer.dart file.
 
-const int kWorkDuration = 5; // 5 sec
-const int kRestDuration = 2; // 2 sec
-const int kLongRestDuration = 3; // 3 sec
-const int kLongRestInterval = 2; // 2 short rest and then 1 long rest
+const int kWorkDuration = 5; // 5 sec <br>
+const int kRestDuration = 2; // 2 sec <br>
+const int kLongRestDuration = 3; // 3 sec <br>
+const int kLongRestInterval = 2; // 2 short rest and then 1 long rest <br>
 
 This project is a starting point for a Flutter application.
 
